@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:textAlignment="center"
+    tools:context="com.mandarsadye.mandar.ess_user.Fragments.SignUpPackage.logIn">
+
+    <LinearLayout
+        android:id="@+id/signUpAlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:weightSum="360">
+
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="300"
+            android:fillViewport="true"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:stretchColumns="1"
+                android:textAlignment="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:padding="30dp"
+                    android:text="LOGIN"
+                    android:textAlignment="center"
+                    android:textColor="#ff0000"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:padding="10dp"
+                    android:text="Enter your email address..."
+                    android:textAlignment="center"
+                    android:textColor="#cc0000" />
+
+                <EditText
+                    android:id="@+id/logInTextEmailAddtess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:foregroundGravity="center"
+                    android:inputType="textEmailAddress"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:padding="10dp"
+                    android:text="Enter your password..."
+                    android:textAlignment="center"
+                    android:textColor="#cc0000" />
+
+                <EditText
+                    android:id="@+id/logInTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:foregroundGravity="center"
+                    android:inputType="textPassword"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/changeLoginOption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:padding="10dp"
+                    android:text="Change Login Option"
+                    android:textAlignment="center"
+                    android:textColor="#00cc1f" />
+
+            </TableLayout>
+        </ScrollView>
+
+
+        <Button
+            android:id="@+id/logInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ff0000"
+            android:foregroundGravity="center"
+            android:text="LOGIN"
+            android:textAlignment="center"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</FrameLayout>

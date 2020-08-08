@@ -1,0 +1,133 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mandarsadye.mandar.ess_user.Fragments.SignUpPackage.SignIn">
+
+    <LinearLayout
+        android:id="@+id/signUpAlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:weightSum="360">
+
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="300"
+            android:fillViewport="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:textAlignment="center">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="1"
+                android:textAlignment="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Sign Up"
+                    android:textAlignment="center"
+                    android:textColor="#ff6f00"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Enter Your User Name"
+                    android:textAlignment="center"
+                    android:textColor="#00aa00" />
+
+                <EditText
+                    android:id="@+id/SignUpUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="textPassword"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Enter your email address..."
+                    android:textAlignment="center"
+                    android:textColor="#00aa00" />
+
+                <EditText
+                    android:id="@+id/SignUpTextEmailAddtess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="textEmailAddress"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Enter your password..."
+                    android:textAlignment="center"
+                    android:textColor="#00aa00" />
+
+                <EditText
+                    android:id="@+id/SignUpTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="textPassword"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Re-enter Your Password ..."
+                    android:textAlignment="center"
+                    android:textColor="#00aa00" />
+
+                <EditText
+                    android:id="@+id/SignUpConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:inputType="textPassword"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/changeSigninOption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:padding="10dp"
+                    android:text="Change Login Option"
+                    android:textAlignment="center"
+                    android:textColor="#cc0000" />
+            </TableLayout>
+        </ScrollView>
+
+
+        <Button
+            android:id="@+id/buttonNextA"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_weight="60"
+            android:background="#00c800"
+            android:text="Next"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</FrameLayout>

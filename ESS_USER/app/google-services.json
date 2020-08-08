@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "954081050156",
+    "firebase_url": "https://ess-project-b09a8.firebaseio.com",
+    "project_id": "ess-project-b09a8",
+    "storage_bucket": "ess-project-b09a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954081050156:android:2dabd9e23dc0583d",
+        "android_client_info": {
+          "package_name": "com.mandarsadye.mandar.ess_user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954081050156-6kc3s7rqe9laf2iq2ofif357d9ntqekc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mandarsadye.mandar.ess_user",
+            "certificate_hash": "a53770761c56979f6c0c642cd6b3d2a0c013ca49"
+          }
+        },
+        {
+          "client_id": "954081050156-2mereec8vs2bin1num1ab0rbiiltmvld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrR8Vc2ETimxf9IbdjSXaboZq7jg6Lz5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954081050156-2mereec8vs2bin1num1ab0rbiiltmvld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954081050156:android:62c1b760be7b6129",
+        "android_client_info": {
+          "package_name": "com.mandarsadye.mandar.ess_conductor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954081050156-2mereec8vs2bin1num1ab0rbiiltmvld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrR8Vc2ETimxf9IbdjSXaboZq7jg6Lz5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954081050156:android:08b3cd1624d79820",
+        "android_client_info": {
+          "package_name": "com.example.atharva.transportmanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954081050156-2mereec8vs2bin1num1ab0rbiiltmvld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrR8Vc2ETimxf9IbdjSXaboZq7jg6Lz5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

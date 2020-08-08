@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SuperLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LinearCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="vertical"
+        android:background="#FFF"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/alaisForStopName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#7cd1ff"
+            android:text="Stop name"
+            android:textAlignment="center"
+            android:padding="5dp"/>
+
+        <TextView
+            android:id="@+id/displayStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="XYZ"
+            android:textColor="#FF000000"
+            android:background="#7cd1ff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="5dp"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/ShrinkLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:background="@drawable/color_for_display_matrix">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="distance from start point"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/displayStartDistance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XYZ"
+                android:textAlignment="center"
+                android:textColor="#FF000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="#221fdb"
+                android:layout_margin="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="actual time to reach"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/displayScheduledTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XYZ"
+                android:textAlignment="center"
+                android:textColor="#FF000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="#221fdb"
+                android:layout_margin="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="expected time to reach"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/displayExpectedTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XYZ"
+                android:textAlignment="center"
+                android:textColor="#FF000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="#221fdb"
+                android:layout_margin="3dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="delay"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/displayDelay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XYZ"
+                android:textAlignment="center"
+                android:textColor="#FF000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
